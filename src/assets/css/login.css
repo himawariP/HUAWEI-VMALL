@@ -1,0 +1,213 @@
+.login-wrap{
+    overflow: auto;
+}
+
+.login-wrap header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+header .van-icon{
+    position: absolute;
+    left: 3vw;
+    top: 3vw;
+}
+
+.logo-box{
+    width: 10vw;
+    margin-left: 45vw;
+    margin-top: 2vh;
+}
+
+.logo-box img{
+    width: 100%;
+}
+
+.login-wrap header h2{
+    font-size: 6vw;
+    margin-top: 4vw;
+}
+
+.login-wrap header p{
+    font-size: 3.6vw;
+    opacity: 0.6;
+    margin-top: 1vw;
+}
+
+.login-mid-wrap{
+    margin-top: 8vh;
+    padding: 2vw 6vw;
+    box-sizing: border-box;
+}
+
+.nation-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nation-box h4{
+    font-size: 4.5vw;
+    font-weight: 400;
+}
+
+.nation-box p{
+    opacity: 0.6;
+    font-size: 3.6vw;
+    margin-top: 1vh;
+}
+
+.nation-box .van-icon{
+    margin-left: 2vw;
+}
+
+.input-wrap{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrap span{
+    
+    border-bottom: 1px solid grey;
+}
+
+.input-wrap input{
+    border: none;
+    outline: none;
+    padding: 2vh 0vh;
+}
+
+.input-wrap input::-webkit-input-placeholder{
+    font-size: 3.6vw;
+}
+
+
+.login-input input{
+    width: 100%;
+}
+
+.verification-input{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+}
+
+.verification-input input{
+    width: 70%;
+}
+
+.verification-input div{
+    padding: 2vh 0vh;
+    width: 30%;
+    text-align: right;
+    cursor: pointer;
+    color: #007dff;
+}
+
+.verification-input div.disabled-get{
+    opacity: 0.6;
+}
+
+.verification-input div p{
+    font-size: 3.6vw;
+}
+
+.btn-wrap{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn-wrap button{
+    width: 100%;
+    color: #fff;
+    background-color: #007dff;
+    height: 5vh;
+    font-size: 3.6vw;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-wrap button.disabled-btn{
+    opacity: 0.6;
+}
+
+.btn-wrap .reg_btn{
+    background-color: #e6e6e6;
+    color: #007dff;
+    margin-top: 2vh;
+}
+
+.btn-wrap p{
+    margin-top: 2vw;
+    color: #007dff;
+    font-size: 3.6vw;
+    font-weight: 400;
+}
+
+/* 底部 */
+.login-wrap footer{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login-wrap footer p{
+    font-size: 3.4vw;
+}
+
+.login-wrap footer p:nth-of-type(1){
+    opacity: 0.6;
+}
+
+.login-wrap footer p:nth-of-type(2){
+    width: 15%;
+    margin: 2vw 0vw 2vw 42.5%;
+}
+
+.login-wrap footer p img{
+    width: 100%;
+}
+
+.login-wrap footer p:nth-of-type(3) span{
+    color: #007dff;
+}
+
+.login-wrap footer p:nth-of-type(3) em{
+    margin: 0vw 2.5vw;
+    opacity: 0.6;
+    font-size: 4vw;
+}
+
+.password-input{
+    margin-top: 1vh;
+}
+
+.find-pwd{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2vh 0vh;
+}
+
+.find-pwd p{
+    width: 50%;
+    font-size: 4vw;
+    color: #007dff;
+}
+
+.find-pwd p:nth-of-type(2){
+    text-align: right;
+}
+
+

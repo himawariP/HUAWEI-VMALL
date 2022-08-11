@@ -1,0 +1,404 @@
+.myPage-wrap{
+    overflow: auto;
+    background-color: #f0f3f5;
+    width: 100%;
+    margin-bottom: 15vw;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    height: 18vw;
+    padding: 1.5vw 3vw;
+    box-sizing: border-box;
+    z-index: 99999;
+    background-image: url(../img/myPage_img/background-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0);
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+header .header-pic{
+    width: 10%;
+    margin-right: 3vw;
+}
+
+.header-pic img{
+    width: 100%;
+}
+
+header p{
+    color: #fff;
+    font-size: 4vw;
+    margin-bottom: 0.5vw;
+    font-weight: bolder;
+}
+
+header .header-icon{
+    width: 10%;
+}
+
+.header-icon img{
+    width: 70%;
+}
+
+/* .back-img{
+    width: 100%;
+    height: 30vh; 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+} */
+
+
+.user-info-wrap{
+    width: 100%;
+    padding: 2vw 3vw;
+    box-sizing: border-box;
+    z-index: 99;
+    /* position: fixed; */
+    background: url(../img/myPage_img/background-img.png) no-repeat;
+}
+
+.top-user-box{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 5vh;
+}
+
+.top-user-box img{
+    width: 100%;
+}
+
+.top-user-box p{
+    color: #fff;
+    font-size: 4vw;
+    font-weight: bolder;
+}
+
+.top-box-img{
+    width: 15%;
+    margin-right: 3vw;
+}
+
+
+.top-box-icon1{
+    width: 5vw;
+}
+
+
+.top-box-icon2{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+}
+
+.mid-user-box{
+    text-align: center;
+    color: #fff;
+    font-size: 3.2vw;
+    margin-top: 2vh;
+}
+
+.mid-user-box ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.mid-user-box li{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-user-box li i{
+    opacity: 0.6;
+}
+
+.mid-user-box em{
+    opacity: 0.3;
+    font-size: 4.5vw;
+    margin-top: 2vw;
+}
+
+.bottom-user-box{
+    text-align: center;
+    color: #fff;
+    font-size: 3.2vw;
+    margin-top: 2vh;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 4vw 3vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.top-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #000;
+}
+
+.top-box p{
+    font-size: 4vw;
+}
+
+.top-box span{
+    font-size: 3.4vw;
+}
+
+.top-box span i{
+    margin-left: 2vw;
+    font-size: 4.5vw;
+    color: #999;
+}
+
+.bottom-box{
+    margin-top: 2vh;
+}
+
+.bottom-box ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-box li{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    text-align: center;
+}
+
+.bottom-box li img{
+    width: 70%;
+    margin-left: 3vw;
+}
+
+.bottom-box li svg{
+    width: 60%;
+    margin-left: 3.2vw;
+}
+
+/* 中间导航 */
+.nav-wrap{
+    padding: 2vw 3vw;
+}
+
+.nav-wrap ul{
+    padding: 3vw 3vw;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.nav-wrap li{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+
+.nav-wrap li img{
+    width: 70%;
+    margin-left: 3vw;
+}
+
+/* 第二个导航 */
+
+.two-nav-wrap{
+    padding: 2vw 3vw;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-box{
+    padding: 2vw 3vw;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 100%;
+    overflow: auto;
+}
+
+.two-nav-wrap ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+    width: 180vw;
+}
+
+.two-nav-wrap li{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.two-nav-wrap li img{
+    width: 60%;
+    margin-left: 4vw;
+}
+
+/* 猜你喜欢 */
+.main-rec-wrap{
+    width: 100%;
+    padding: 2vw 3vw;
+    box-sizing: border-box;
+}
+
+.rec-wrap-title{
+    margin: 2vw 0vw 0vw;
+}
+
+.rec-wrap-title p{
+    font-size: 5vw;
+    font-weight: bolder;
+}
+
+.rec-list-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* .rec-first-box{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+} */
+
+.rec-box{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.rec-box img{
+    width: 100%;
+}
+
+.rec-cover{
+    display: flex;
+    justify-content: center;
+}
+
+.rec-cover img{
+    width: 75%;
+}
+
+.rec-content{
+    padding: 1vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rec-content .commodity-name{
+    font-size: 4vw;
+    font-weight: bolder;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+
+.commodity-name span{
+    font-size: 3.5vw;
+    padding: 0vw 0.5vw;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(207, 10, 44);
+    font-weight: normal;
+}
+
+.rec-content .commodity-intro{
+    font-size: 3.4vw;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rec-content .commodity-price{
+    font-size: 4.7vw;
+    font-weight: bolder;
+    color: rgb(207, 10, 44);
+    margin-top: 2vw;
+    display: flex;
+}
+
+.commodity-price s{
+    font-size: 3.2vw;
+    color: #666;
+    font-weight: normal;
+    margin-left: 2vw;
+    padding-top: 1vw;
+    box-sizing: border-box;
+}
+
+.rec-content .commodity-tags{
+    margin: 1vw 0vw;
+}
+
+.commodity-tags span{
+    padding: 0vw 1vw;
+    border: 1px solid rgb(207, 10, 44);
+    color: rgb(207, 10, 44);
+    margin-right: 2vw;
+    border-radius: 4px;
+}
+
+
+/* 左边 */
+.left-rec-list{
+    width: 49%;
+}
+
+/* 右边 */
+.right-rec-list{
+    width: 49%;
+}
+
+/* 底部文字 */
+.footer-txt{
+    width: 100%;
+    text-align: center;
+    padding: 4vw 0vw;
+}
+
+.footer-txt p{
+    font-size: 4vw;
+    color: #666;
+}

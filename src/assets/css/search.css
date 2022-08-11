@@ -1,0 +1,148 @@
+.search-wrap{
+    overflow: auto;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 15vw;
+    padding: 1.5vw 3vw;
+    box-sizing: border-box;
+    z-index: 99999;
+    background-color: #f0f3f5;
+}
+
+.top-left-box{
+    width: 7%;
+}
+
+.top-search-box{
+    width: 93%;
+}
+
+/* .top-right-box{
+    width: 10%;
+} */
+
+.top-right-box a{
+    color: black;
+}
+
+.top-right-box p{
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+section{
+    margin-top: 15vw;
+    background-color: #f0f3f5;
+}
+
+/* 最近搜索和搜索发现 */
+.record-wrap{
+    padding: 3vw 3vw;
+    box-sizing: border-box;
+}
+
+.record-wrap>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.record-wrap p{
+    font-size: 4.5vw;
+    font-weight: bolder;
+}
+
+.record-wrap ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2vw;
+}
+
+.record-wrap li{
+    padding: 2vw;
+    background-color: #e5e5e5;
+    text-align: center;
+    line-height: 4vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    border-radius: 30px;
+    font-size: 3.2vw;
+}
+
+/* 热搜榜 */
+.hot-wrap{
+    width: 100%;
+    padding: 2vw 3vw;
+    box-sizing: border-box;
+}
+
+.hot-content-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.hot-title-box{
+    width: 100%;
+}
+
+.hot-title-box img{
+    width: 100%;
+}
+
+.hot-list-wrap ul{
+    width: 100%;
+}
+
+
+.hot-list-wrap li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.5vh 0;
+}
+
+.hot-content-wrap li .left-box{
+    width: 5%;
+}
+
+.hot-content-wrap li .left-box img{
+    width:100%;
+    margin-top: 2vh;
+}
+
+.hot-content-wrap li .left-box svg{
+    width:100%;
+    margin-top: 2vh;
+}
+
+.hot-content-wrap li .right-box{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align:middle;
+}
+
+.hot-content-wrap li .right-box img{
+    width: 15%;
+    border-radius: 5px;
+}
+
+.hot-content-wrap li .right-box p{
+    width: 80%;
+    font-size: 3.4vw;
+    margin-top: 2vh;
+    font-weight: 400;
+}
